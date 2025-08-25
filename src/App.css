@@ -1,0 +1,36 @@
+/* Full page center */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* horizontal center */
+  justify-content: center; /* vertical center */
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #f8f9fa; /* light pastel background */
+}
+
+/* Rectangle box styling */
+.card {
+  width: 80%;            /* make it responsive */
+  max-width: 600px;      /* fixed max size */
+  margin: 1rem 0;
+  padding: 2rem;
+  text-align: center;
+  background: #ffe6f0;   /* pastel pink */
+  border-radius: 20px;
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect (pop up) */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Footer specific */
+.footer {
+  background: #e6f7ff;  /* pastel blue */
+  font-size: 14px;
+  font-weight: bold;
+}
